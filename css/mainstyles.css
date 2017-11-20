@@ -2,6 +2,7 @@
     html{
       height:100%;
       min-height:100%;
+      overflow-y: hidden;
     }
     body{
       min-height:100%;
@@ -40,17 +41,15 @@
     }
     body {
       background: url('../images/Photo3.jpg') no-repeat center center fixed;
-      /*background-size: cover;*/
-      /*background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover cover;*/
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
     a:hover{
-      color: grey;
+      color: #FFAB91;
       text-decoration: none;
     }
     @media (max-width: 500px) {
