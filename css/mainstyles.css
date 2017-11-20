@@ -1,0 +1,59 @@
+
+    header {
+      text-align: center;
+      color: black;
+      font-size: 30px;
+    }
+    ul {
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 70px;
+      padding: 10px;
+      color: black;
+      margin-top: 60px;
+
+    }
+    li {
+      padding: 20px 20px 20px 20px;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 90px;
+      color: white;
+      background: rgba(0,0,0,0.3);
+      margin-top: 40px;
+    }
+    h2 {
+    font-size: 40px;
+    margin: 20px 0 30px 0;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    }
+    body {
+      background: url('../images/Photo3.jpg') no-repeat center center fixed;
+      /*background-size: cover;*/
+      /*background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover cover;*/
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+    a:hover{
+      color: grey;
+    }
+    @media (max-width: 500px) {
+      h1{
+        font-size: 30px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+      }
+      body {
+          background-repeat: no-repeat;
+      }
+    }
