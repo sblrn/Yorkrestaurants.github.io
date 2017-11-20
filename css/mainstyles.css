@@ -51,6 +51,7 @@
     }
     a:hover{
       color: grey;
+      text-decoration: none;
     }
     @media (max-width: 500px) {
       h1{
