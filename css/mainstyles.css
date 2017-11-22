@@ -1,42 +1,51 @@
 
-    html{
-      height:100%;
-      min-height:100%;
-      overflow-y: hidden;
-    }
-    body{
-      min-height:100%;
-    }
     header {
       text-align: center;
-      color: black;
       font-size: 30px;
+      color: #BCAAA4;
     }
     ul {
       font-family: 'Julius Sans One', sans-serif;
-      font-size: 70px;
-      padding: 10px;
-      color: black;
-      margin-top: 60px;
+      font-size: 60px;
+      color: white;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      background: rgba(0,0,0,0.35);
+      height: 450px;
+      width: 590px;
+      background-position: center;
+      margin: 100px 500px 100px 550px ;
+      line-height: 100px;
     }
     li {
       padding: 20px 20px 20px 20px;
+      list-style-type: none;
     }
     a {
       color: white;
+    }
+    a:hover{
+      color: #FF8A65;
+      text-decoration: none;
     }
     h1 {
       font-family: 'Julius Sans One', sans-serif;
       font-size: 90px;
       color: white;
-      background: rgba(0,0,0,0.3);
-      margin-top: 40px;
+      background: rgba(0,0,0,0.35);
+      height: 100px;
+      width: 1000px;
+      border: 10px 10px 10px 10px;
+      margin: 70px 300px 70px 400px;
+      line-height: 100px;
     }
-    h2 {
-    font-size: 40px;
-    margin: 20px 0 30px 0;
-    color: white;
-    font-family: 'Julius Sans One', sans-serif;
+    h2{
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 30px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      font-weight: bold;
     }
     body {
       background: url('../images/Photo3.jpg') no-repeat center center fixed;
@@ -46,10 +55,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-    }
-    a:hover{
-      color: #FF8A65;
-      text-decoration: none;
+      min-height:100%;
     }
     @media (max-width: 500px) {
       h1{
@@ -59,7 +65,8 @@
       li {
         padding: 5px;
       }
-      body {
-          background-repeat: no-repeat;
+      html{
+        height:100%;
+        min-height:100%;
+        overflow-y: hidden;
       }
-    }

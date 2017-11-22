@@ -1,0 +1,56 @@
+header {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 80px;
+  color: white;
+  background: rgba(0,0,0,0.35);
+  height: 100px;
+  width: 700px;
+  margin: 70px 500px 70px 500px;
+  line-height: 100px;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: #FF8A65;
+  text-decoration: none;
+}
+li {
+  padding: 0 20px 20px 20px;
+}
+ul{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  color: black;
+  margin-top: 60px;
+}
+body {
+  background: url('../images/Photo3.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  .x {
+  float: left;
+  width: 300px;
+  height: auto;
+}
+  .y {
+    float:left;
+    width:700px;
+    height:auto;
+  }
+  .z {
+    float:left;
+    width:900px;
+    height:auto;
+  }
